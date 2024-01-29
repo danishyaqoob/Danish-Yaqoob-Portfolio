@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -29,5 +29,46 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+} */
+
+
+body{
+  background-color: #20242d;
+  scroll-behavior: smooth !important;
+}
+
+
+.transition-three-second{
+  transition: all 0.3s ease-in-out;
+}
+
+
+.transorm-scale:hover{
+  transform: scale(1.2);
+}
+
+
+
+.shadow:hover{
+  box-shadow: #01eefe 0px 22px 70px 4px;
+}
+
+
+.number_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+@media (max-width:400px) {
+  .input-responsive{
+    flex-direction: column;
+  }
+  .image{
+    width: 300px;
   }
 }
