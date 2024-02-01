@@ -1,3 +1,4 @@
+import ClientSingleCard from "@/Compenents/Clients/ClientCard";
 import Header from "@/Compenents/Header";
 import Link from "next/link";
 
@@ -39,7 +40,7 @@ export default function Home() {
               <p className="mt-[14px] text-[#ffffffbe] text-[14px] md:text-[15px] font-[500] ">As a frontend web developer, I specialize in crafting the user-facing aspects of websites and web applications. My expertise lies in translating design mockups into interactive, responsive, and visually appealing interfaces using technologies like HTML, CSS, and JavaScript. I focus on optimizing user experience by ensuring seamless navigation, fast loading times, and cross-browser compatibility. With a keen eye for design and a passion for coding, I continuously seek to stay updated with the latest trends and best practices in frontend development to deliver compelling digital experiences.</p>
               <div className="mt-[30px] flex items-center gap-[8px] ">
                   <div className="rounded-[30px] shadow px-[20px] md:px-[23px] py-[8px] md:py-[9px] text-[14px] md:text-[15px] transorm-scale font-[700] transition-three-second max-w-max cursor-pointer select-none text-[#20242d] bg-[#01eefe] ">
-                    read more
+                    Download CV
                   </div>
                   {/* <div className="rounded-[30px] shadow px-[20px] md:px-[23px] py-[8px] md:py-[9px] text-[14px] md:text-[15px] transorm-scale font-[700] transition-three-second mt-[22px] max-w-max cursor-pointer select-none text-[#20242d] bg-[#01eefe] ">
                     Download CV
@@ -50,7 +51,7 @@ export default function Home() {
         </section>
         <section id="services" className=" w-full  ">
           <div className="max-w-[1240px] mx-auto px-[8px] sm:px-[12px] py-[60px] ">
-          <h2 className=" text-[24px] md:text-[28px] font-[800] text-[#fff] text-center ">Our <span className="text-[#01eefe] ">Services</span></h2>
+          <h2 className=" text-[24px] md:text-[28px] font-[800] text-[#fff] text-center ">My <span className="text-[#01eefe] ">Services</span></h2>
             <div className="flex items-center gap-[12px] md:gap-[16px] flex-wrap justify-center mt-[22px] ">
               <div className="rounded-[8px] flex flex-col items-center px-[18px] py-[30px] bg-[#323846] w-[300px] ">
                 <i class="fa-solid fa-code text-[#01eefe] text-[17px] md:text-[22px] "></i>
@@ -103,12 +104,19 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="projects"  className=" w-full bg-[#323846] ">
+        <section id="projects"  className=" w-full bg-[#323846]">
           <div className="px-[8px] sm:px-[12px] max-w-[1100px] mx-auto py-[40px] sm:py-[50px] md:py-[60px]  ">
-            <h2 className=" text-[24px] md:text-[28px] text-center font-[800] text-[#fff] ">Our <span className="text-[#01eefe] ">Clients</span></h2>
+            <h2 className=" text-[24px] md:text-[28px] text-center font-[800] text-[#fff] ">My <span className="text-[#01eefe] ">Clients</span></h2>
             <p className="mt-[14px] text-[#ffffffbe] text-[14px] md:text-[15px] font-[500] text-center ">We contribute to these partnership programs, supported by global technology experts. Partnering with industry leaders, we offer quality technology solutions that meet your business needs.</p>
-            <div className="flex items-center justify-center mt-[22px] flex-wrap ">
-
+            <div className="flex items-center justify-center mt-[42px] flex-wrap relative z-0 ">
+              <ClientSingleCard image={"/images/redexpo-removebg-preview.png"} />
+              <ClientSingleCard image={'/images/traumacare.png'} />
+              <ClientSingleCard image={'/images/KaraydaarLogo.png'} />
+              <ClientSingleCard image={'/images/WhatsApp_Image_2023-05-16_at_10.39.26_PM-removebg-preview.png'} className='border-l' />
+              <ClientSingleCard image={'/images/compress_logo.png'} />
+              <ClientSingleCard image={'/images/logo.png'} />
+              <ClientSingleCard image={'/images/brayv.ai (Logo) (500 × 200 px) (transparent).png'} />
+              <ClientSingleCard image={'/images/systembot_logo.png'} />
             </div>
           </div>
         </section>

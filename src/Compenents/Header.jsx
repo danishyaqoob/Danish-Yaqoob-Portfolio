@@ -10,7 +10,7 @@ import PortfolioLogo from "./PortfolioLogo"
 const Header = () => {
     return (
         <>
-            <main className="sticky top-0 bg-[#20242d] ">
+            <main className="sticky top-0 bg-[#20242d] z-10">
                 <div className="flex items-center justify-between max-w-[1280px] px-[18px] mx-auto py-[12px] sm:py-[0px] ">
                     <PortfolioLogo/>
                     <div className="sm:block hidden">
