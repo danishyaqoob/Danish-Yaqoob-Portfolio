@@ -33,6 +33,36 @@ body {
 } */
 
 
+
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+body::-webkit-scrollbar-track {
+  background: #20242d;
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background: #01eefe;
+  border-radius: 50px;
+  cursor: pointer !important;
+}
+
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #596070;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 body{
   background-color: #20242d;
   scroll-behavior: smooth !important;

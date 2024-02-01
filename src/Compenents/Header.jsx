@@ -15,12 +15,12 @@ const Header = () => {
                     <PortfolioLogo/>
                     <div className="sm:block hidden">
                         <div className="flex items-center px-[11px] md:px-[14px] ">
-                            <HeaderItem item_name = 'Home' />
-                            <HeaderItem item_name = 'About' />
+                            <HeaderItem link = "#home" item_name = 'Home' />
+                            <HeaderItem link = "#about_me" item_name = 'About' />
+                            <HeaderItem link = "#services" item_name = 'Services' />
+                            <HeaderItem link = "#projects" item_name = 'Projects' />
+                            <HeaderItem link = "#contact_me" item_name = 'Contact' />
                             {/* <HeaderItem item_name = 'Skills' /> */}
-                            <HeaderItem item_name = 'Services' />
-                            <HeaderItem item_name = 'Projects' />
-                            <HeaderItem item_name = 'Contact' />
                         </div>
                     </div>
                 </div>
