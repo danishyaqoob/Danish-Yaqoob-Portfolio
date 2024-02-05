@@ -7,7 +7,7 @@ const AboutSection = () => {
         <>
         <section id="about_me" className="bg-[#323846] w-full mt-[45px] sm:mt-[60px] md:mt-[80px] lg:mt-[90px] pt-[20px] pb-[60px]  ">
           <div className="max-w-[1240px] mx-auto px-[8px] sm:px-[12px] flex items-center gap-[12px] lg:flex-row flex-col ">
-            <div className="flex items-center justify-center w-[300px] sm:w-[400px] md:w-[500px] ">
+            <div className="flex items-center justify-center w-[280px] sm:w-[440px] md:w-[480px] ">
               <img className=" " src="/images/about1.png"/>
             </div>
             <div className="flex-1 pt-[22px] lg:pt-[0px] ">

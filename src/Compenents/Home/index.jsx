@@ -23,7 +23,7 @@ const HomeSection = () => {
                         Contact me
                     </a>
                     </div>
-                    <div className="image w-[400px] sm:w-[450px] md:w-[500px]">
+                    <div className="image w-[270px] sm:w-[440px] md:w-[480px]">
                         <img className="" src="/images/rounded.png" />
                     </div>
                 </div>
