@@ -1,3 +1,4 @@
+import DownloadCVButton from "../DownloadCVButton"
 
 
 
@@ -15,9 +16,7 @@ const AboutSection = () => {
               <p className=" text-[#fff] font-[600] text-[17px] md:text-[19px] ">Frontend Developer!</p>
               <p className="mt-[14px] text-[#ffffffbe] text-[14px] md:text-[15px] font-[500] ">As a frontend web developer, I specialize in crafting the user-facing aspects of websites and web applications. My expertise lies in translating design mockups into interactive, responsive, and visually appealing interfaces using technologies like HTML, CSS, and JavaScript. I focus on optimizing user experience by ensuring seamless navigation, fast loading times, and cross-browser compatibility. With a keen eye for design and a passion for coding, I continuously seek to stay updated with the latest trends and best practices in frontend development to deliver compelling digital experiences.</p>
               <div className="mt-[30px] flex items-center gap-[8px] ">
-                  <div className="rounded-[30px] shadow px-[20px] md:px-[23px] py-[8px] md:py-[9px] text-[14px] md:text-[15px] transorm-scale font-[700] transition-three-second max-w-max cursor-pointer select-none text-[#20242d] bg-[#01eefe] ">
-                    Download CV
-                  </div>
+                  <DownloadCVButton/>
                   {/* <div className="rounded-[30px] shadow px-[20px] md:px-[23px] py-[8px] md:py-[9px] text-[14px] md:text-[15px] transorm-scale font-[700] transition-three-second mt-[22px] max-w-max cursor-pointer select-none text-[#20242d] bg-[#01eefe] ">
                     Download CV
                   </div> */}
